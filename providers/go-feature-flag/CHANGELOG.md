@@ -1,5 +1,74 @@
 # Changelog
 
+## [0.5.0](https://github.com/jarebudev/java-sdk-contrib/compare/dev.openfeature.contrib.providers.go-feature-flag-v0.4.3...dev.openfeature.contrib.providers.go-feature-flag-v0.5.0) (2025-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* changing cache provider to caffeine over guava ([#1065](https://github.com/jarebudev/java-sdk-contrib/issues/1065))
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964))
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.17.1 ([#777](https://github.com/jarebudev/java-sdk-contrib/issues/777)) ([8b582d6](https://github.com/jarebudev/java-sdk-contrib/commit/8b582d6052fd22b8141a9765b2a1a261933fd3a2))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.17.2 ([#866](https://github.com/jarebudev/java-sdk-contrib/issues/866)) ([cf66811](https://github.com/jarebudev/java-sdk-contrib/commit/cf668118351120b8a86b08f30facb38f7ec51086))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.18.0 ([#979](https://github.com/jarebudev/java-sdk-contrib/issues/979)) ([7e1a13e](https://github.com/jarebudev/java-sdk-contrib/commit/7e1a13ec79b82f8fa49703af58087fea1874cea5))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.18.1 ([#1047](https://github.com/jarebudev/java-sdk-contrib/issues/1047)) ([a2ee3e6](https://github.com/jarebudev/java-sdk-contrib/commit/a2ee3e6ed0c15c3ebaf55adc10198760f51a4a30))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.18.2 ([#1089](https://github.com/jarebudev/java-sdk-contrib/issues/1089)) ([9b40e22](https://github.com/jarebudev/java-sdk-contrib/commit/9b40e22e57739c7da417f834dd4f6822e6657ca8))
+* **deps:** update dependency com.fasterxml.jackson.datatype:jackson-datatype-jsr310 to v2.17.1 ([#778](https://github.com/jarebudev/java-sdk-contrib/issues/778)) ([a4c4672](https://github.com/jarebudev/java-sdk-contrib/commit/a4c467267caf35a838b0c2c6423fa01e21846c1d))
+* **deps:** update dependency com.fasterxml.jackson.datatype:jackson-datatype-jsr310 to v2.17.2 ([#867](https://github.com/jarebudev/java-sdk-contrib/issues/867)) ([84f534c](https://github.com/jarebudev/java-sdk-contrib/commit/84f534c7d0a8a739b1d071a2f7c93c6ec21316da))
+* **deps:** update dependency com.fasterxml.jackson.datatype:jackson-datatype-jsr310 to v2.18.0 ([#980](https://github.com/jarebudev/java-sdk-contrib/issues/980)) ([4d7f548](https://github.com/jarebudev/java-sdk-contrib/commit/4d7f5489f64098b72024cd7e7a69409f3258517d))
+* **deps:** update dependency com.fasterxml.jackson.datatype:jackson-datatype-jsr310 to v2.18.1 ([#1048](https://github.com/jarebudev/java-sdk-contrib/issues/1048)) ([ac1a952](https://github.com/jarebudev/java-sdk-contrib/commit/ac1a95239229def83a253515b4c88ee8b9186cf1))
+* **deps:** update dependency com.fasterxml.jackson.datatype:jackson-datatype-jsr310 to v2.18.2 ([#1088](https://github.com/jarebudev/java-sdk-contrib/issues/1088)) ([34ec5a8](https://github.com/jarebudev/java-sdk-contrib/commit/34ec5a83685100ac014def681286c59f0f939188))
+* **deps:** update dependency com.fasterxml.jackson.datatype:jackson-datatype-jsr310 to v2.18.3 ([#1253](https://github.com/jarebudev/java-sdk-contrib/issues/1253)) ([9cc36dc](https://github.com/jarebudev/java-sdk-contrib/commit/9cc36dc8d750cf38b55b12ea22f4c7bd56a206b3))
+* **deps:** update dependency com.google.guava:guava to v33.2.0-jre ([#771](https://github.com/jarebudev/java-sdk-contrib/issues/771)) ([c9e4245](https://github.com/jarebudev/java-sdk-contrib/commit/c9e42451ccfec4f4af1c2dc54077bca3a444f75f))
+* **deps:** update dependency com.google.guava:guava to v33.2.1-jre ([#803](https://github.com/jarebudev/java-sdk-contrib/issues/803)) ([4181807](https://github.com/jarebudev/java-sdk-contrib/commit/418180789db84fb7cff160ef3af2cac773274aaa))
+* **deps:** update dependency com.google.guava:guava to v33.3.0-jre ([#919](https://github.com/jarebudev/java-sdk-contrib/issues/919)) ([ba4a7f9](https://github.com/jarebudev/java-sdk-contrib/commit/ba4a7f91c04116eb86bcb12c3e0d82dfa4f5a099))
+* **deps:** update dependency com.google.guava:guava to v33.3.1-jre ([#965](https://github.com/jarebudev/java-sdk-contrib/issues/965)) ([4288ca3](https://github.com/jarebudev/java-sdk-contrib/commit/4288ca3901e811edbe2527ebedfcc7b1db95db02))
+* **deps:** update dependency io.reactivex.rxjava3:rxjava to v3.1.10 ([#1083](https://github.com/jarebudev/java-sdk-contrib/issues/1083)) ([67d6308](https://github.com/jarebudev/java-sdk-contrib/commit/67d63081c8b5f56ce7ac32a30f2bc1e67b6afe5d))
+* **deps:** update dependency io.reactivex.rxjava3:rxjava to v3.1.9 ([#916](https://github.com/jarebudev/java-sdk-contrib/issues/916)) ([6a3545a](https://github.com/jarebudev/java-sdk-contrib/commit/6a3545a1f278297b8993df055b4ba80155e2925e))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.13 ([#752](https://github.com/jarebudev/java-sdk-contrib/issues/752)) ([b820fcf](https://github.com/jarebudev/java-sdk-contrib/commit/b820fcf1b7ea945a8e450dcc90addb82f5fb865d))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.14 ([#904](https://github.com/jarebudev/java-sdk-contrib/issues/904)) ([028b332](https://github.com/jarebudev/java-sdk-contrib/commit/028b332dc8ac3b134e5453d5449a4c11b4ef250a))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.15 ([#910](https://github.com/jarebudev/java-sdk-contrib/issues/910)) ([2f58638](https://github.com/jarebudev/java-sdk-contrib/commit/2f58638eb4907c948325d1e61853e1b6eabfa4c1))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.16 ([#912](https://github.com/jarebudev/java-sdk-contrib/issues/912)) ([52571d8](https://github.com/jarebudev/java-sdk-contrib/commit/52571d806e7c547006db836245b4895fe9bc4660))
+* **deps:** update jackson monorepo to v2.18.3 ([#1254](https://github.com/jarebudev/java-sdk-contrib/issues/1254)) ([24f11fd](https://github.com/jarebudev/java-sdk-contrib/commit/24f11fd5338e2693d1eda0654c4ea4bc29063742))
+* **deps:** update slf4j monorepo to v2.0.17 ([#1243](https://github.com/jarebudev/java-sdk-contrib/issues/1243)) ([66c6a7f](https://github.com/jarebudev/java-sdk-contrib/commit/66c6a7fc1bdc3e907793d2fc1eb0d412693a4aee))
+* **gofeatureflag:** fix java.lang.NoClassDefFoundError ([#839](https://github.com/jarebudev/java-sdk-contrib/issues/839)) ([6859fa6](https://github.com/jarebudev/java-sdk-contrib/commit/6859fa62ecb6dcf01f3927b72e2d964b5871b45a))
+* **gofeatureflag:** Fix NPE when error code is not set in the API response ([#855](https://github.com/jarebudev/java-sdk-contrib/issues/855)) ([79ca933](https://github.com/jarebudev/java-sdk-contrib/commit/79ca933f6b8ffac13ee46c0685f5675bccbb7dcd))
+* Use seconds instead of milliseconds ([#1174](https://github.com/jarebudev/java-sdk-contrib/issues/1174)) ([921231a](https://github.com/jarebudev/java-sdk-contrib/commit/921231a2031098fb97bf96e506912e2dee2b225c))
+
+
+### ✨ New Features
+
+* changing cache provider to caffeine over guava ([#1065](https://github.com/jarebudev/java-sdk-contrib/issues/1065)) ([7083586](https://github.com/jarebudev/java-sdk-contrib/commit/70835860090175209b6cec1cab6443d0bc4784fa))
+* **go-feature-flag:** Add exporterMetadata in the evaluation call ([#1193](https://github.com/jarebudev/java-sdk-contrib/issues/1193)) ([16a8287](https://github.com/jarebudev/java-sdk-contrib/commit/16a8287d8ac4e952f4bb934bd731e4301ce3c261))
+* **go-feature-flag:** Support Exporter Metadata ([#1167](https://github.com/jarebudev/java-sdk-contrib/issues/1167)) ([b55a52e](https://github.com/jarebudev/java-sdk-contrib/commit/b55a52ecd90b53d25ea259e16fa0ef43fac9dc12))
+* **gofeatureflag:** Add support of flag change cache removal ([#821](https://github.com/jarebudev/java-sdk-contrib/issues/821)) ([536de91](https://github.com/jarebudev/java-sdk-contrib/commit/536de91d64ff37330245070b55db42d0d308f02c))
+* improve error handling ([#1214](https://github.com/jarebudev/java-sdk-contrib/issues/1214)) ([fd32898](https://github.com/jarebudev/java-sdk-contrib/commit/fd32898c952926e5e484ea2305220b1f532d23ea))
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964)) ([4a041b0](https://github.com/jarebudev/java-sdk-contrib/commit/4a041b0dda9c4e460f4c2199f3bc680df0dda621))
+
+
+### 🧹 Chore
+
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.0 ([#940](https://github.com/jarebudev/java-sdk-contrib/issues/940)) ([5465337](https://github.com/jarebudev/java-sdk-contrib/commit/546533739b453988720bb051d5e623ac7eb0b588))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.1 ([#986](https://github.com/jarebudev/java-sdk-contrib/issues/986)) ([1e53431](https://github.com/jarebudev/java-sdk-contrib/commit/1e53431353c1de0856db6bdb815d2218d9ac94a2))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.2 ([#1079](https://github.com/jarebudev/java-sdk-contrib/issues/1079)) ([804cd45](https://github.com/jarebudev/java-sdk-contrib/commit/804cd455d6e9e79e1fa72b003245027ed7450487))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.3 ([#1103](https://github.com/jarebudev/java-sdk-contrib/issues/1103)) ([e2b8160](https://github.com/jarebudev/java-sdk-contrib/commit/e2b8160dda2b82b43f665753187ab85a4e1abe13))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.2.20 ([#753](https://github.com/jarebudev/java-sdk-contrib/issues/753)) ([5af757a](https://github.com/jarebudev/java-sdk-contrib/commit/5af757a73f0a62012406a2530ec2ea554ef27ec4))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.2.21 ([#805](https://github.com/jarebudev/java-sdk-contrib/issues/805)) ([cf77d56](https://github.com/jarebudev/java-sdk-contrib/commit/cf77d56400d8a83398988a1f9d1fd7ca180ab01a))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.2.22 ([#840](https://github.com/jarebudev/java-sdk-contrib/issues/840)) ([5f420cb](https://github.com/jarebudev/java-sdk-contrib/commit/5f420cba112a853e3c0cd872fc197d51a7307af3))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.2.23 ([#859](https://github.com/jarebudev/java-sdk-contrib/issues/859)) ([cb7fa8e](https://github.com/jarebudev/java-sdk-contrib/commit/cb7fa8e898ad8e6d4bbd42909fe9789aa986b7ff))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.3.0 ([#871](https://github.com/jarebudev/java-sdk-contrib/issues/871)) ([d619531](https://github.com/jarebudev/java-sdk-contrib/commit/d6195310bab2e7643f61e260e62b53b1e2c625a3))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.4.0 ([#972](https://github.com/jarebudev/java-sdk-contrib/issues/972)) ([879422f](https://github.com/jarebudev/java-sdk-contrib/commit/879422f1ce4ad97b85e13dc591d09d1367566796))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.4.1 ([#1081](https://github.com/jarebudev/java-sdk-contrib/issues/1081)) ([2fe9b94](https://github.com/jarebudev/java-sdk-contrib/commit/2fe9b940c6a45788b5c109b9b00258330b732066))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.4.2 ([#1175](https://github.com/jarebudev/java-sdk-contrib/issues/1175)) ([5c9b53f](https://github.com/jarebudev/java-sdk-contrib/commit/5c9b53f0eb67a24fdf5d979083fc25ed9e16c193))
+* **main:** release dev.openfeature.contrib.providers.go-feature-flag 0.4.3 ([#1246](https://github.com/jarebudev/java-sdk-contrib/issues/1246)) ([b3bef6a](https://github.com/jarebudev/java-sdk-contrib/commit/b3bef6a912080d79733ebb76b3acd4b08c132045))
+
+
+### 📚 Documentation
+
+* **GOFF:** Fix issues in readme ([#814](https://github.com/jarebudev/java-sdk-contrib/issues/814)) ([5d60be7](https://github.com/jarebudev/java-sdk-contrib/commit/5d60be72a4e583829438db7776826d21bf87bb82))
+
 ## [0.4.3](https://github.com/open-feature/java-sdk-contrib/compare/dev.openfeature.contrib.providers.go-feature-flag-v0.4.2...dev.openfeature.contrib.providers.go-feature-flag-v0.4.3) (2025-03-17)
 
 
