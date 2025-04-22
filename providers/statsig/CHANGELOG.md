@@ -1,5 +1,43 @@
 # Changelog
 
+## [0.2.0](https://github.com/jarebudev/java-sdk-contrib/compare/dev.openfeature.contrib.providers.statsig-v0.1.0...dev.openfeature.contrib.providers.statsig-v0.2.0) (2025-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964))
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency com.statsig:serversdk to v1.16.0 ([#754](https://github.com/jarebudev/java-sdk-contrib/issues/754)) ([c8e5cb6](https://github.com/jarebudev/java-sdk-contrib/commit/c8e5cb66305db5b076ed4ba5f1a6d1a60b0115f3))
+* **deps:** update dependency com.statsig:serversdk to v1.17.0 ([#758](https://github.com/jarebudev/java-sdk-contrib/issues/758)) ([e0c7a26](https://github.com/jarebudev/java-sdk-contrib/commit/e0c7a266835ab41e9298cd9b726f696bcac21527))
+* **deps:** update dependency com.statsig:serversdk to v1.17.1 ([#768](https://github.com/jarebudev/java-sdk-contrib/issues/768)) ([40d4492](https://github.com/jarebudev/java-sdk-contrib/commit/40d4492372c44abccf45f03a3ec499b3727b6d0a))
+* **deps:** update dependency com.statsig:serversdk to v1.17.2 ([#770](https://github.com/jarebudev/java-sdk-contrib/issues/770)) ([1da0305](https://github.com/jarebudev/java-sdk-contrib/commit/1da0305d8daf35fc64d0864bf9839ac1afe88bf4))
+* **deps:** update dependency com.statsig:serversdk to v1.17.3 ([#774](https://github.com/jarebudev/java-sdk-contrib/issues/774)) ([fa56579](https://github.com/jarebudev/java-sdk-contrib/commit/fa56579fdebe99cbc5415e95585ba791b4e1b247))
+* **deps:** update dependency com.statsig:serversdk to v1.18.0 ([#799](https://github.com/jarebudev/java-sdk-contrib/issues/799)) ([bfbdef8](https://github.com/jarebudev/java-sdk-contrib/commit/bfbdef8cdfe6bdbb1015ffc65354f852b3889fa5))
+* **deps:** update dependency com.statsig:serversdk to v1.18.1 ([#806](https://github.com/jarebudev/java-sdk-contrib/issues/806)) ([17c61c3](https://github.com/jarebudev/java-sdk-contrib/commit/17c61c32d5669ef19e886230b95c4028e9d87d0c))
+* **deps:** update dependency com.statsig:serversdk to v1.22.0 ([#822](https://github.com/jarebudev/java-sdk-contrib/issues/822)) ([a560308](https://github.com/jarebudev/java-sdk-contrib/commit/a560308452ea737b41b9d19d1d0942dffa7f9e51))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.13 ([#752](https://github.com/jarebudev/java-sdk-contrib/issues/752)) ([b820fcf](https://github.com/jarebudev/java-sdk-contrib/commit/b820fcf1b7ea945a8e450dcc90addb82f5fb865d))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.14 ([#904](https://github.com/jarebudev/java-sdk-contrib/issues/904)) ([028b332](https://github.com/jarebudev/java-sdk-contrib/commit/028b332dc8ac3b134e5453d5449a4c11b4ef250a))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.15 ([#910](https://github.com/jarebudev/java-sdk-contrib/issues/910)) ([2f58638](https://github.com/jarebudev/java-sdk-contrib/commit/2f58638eb4907c948325d1e61853e1b6eabfa4c1))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.16 ([#912](https://github.com/jarebudev/java-sdk-contrib/issues/912)) ([52571d8](https://github.com/jarebudev/java-sdk-contrib/commit/52571d806e7c547006db836245b4895fe9bc4660))
+* **deps:** update slf4j monorepo to v2.0.17 ([#1243](https://github.com/jarebudev/java-sdk-contrib/issues/1243)) ([66c6a7f](https://github.com/jarebudev/java-sdk-contrib/commit/66c6a7fc1bdc3e907793d2fc1eb0d412693a4aee))
+
+
+### ✨ New Features
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964)) ([4a041b0](https://github.com/jarebudev/java-sdk-contrib/commit/4a041b0dda9c4e460f4c2199f3bc680df0dda621))
+
+
+### 🧹 Chore
+
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.0 ([#940](https://github.com/jarebudev/java-sdk-contrib/issues/940)) ([5465337](https://github.com/jarebudev/java-sdk-contrib/commit/546533739b453988720bb051d5e623ac7eb0b588))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.1 ([#986](https://github.com/jarebudev/java-sdk-contrib/issues/986)) ([1e53431](https://github.com/jarebudev/java-sdk-contrib/commit/1e53431353c1de0856db6bdb815d2218d9ac94a2))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.2 ([#1079](https://github.com/jarebudev/java-sdk-contrib/issues/1079)) ([804cd45](https://github.com/jarebudev/java-sdk-contrib/commit/804cd455d6e9e79e1fa72b003245027ed7450487))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.3 ([#1103](https://github.com/jarebudev/java-sdk-contrib/issues/1103)) ([e2b8160](https://github.com/jarebudev/java-sdk-contrib/commit/e2b8160dda2b82b43f665753187ab85a4e1abe13))
+* fix pmd violations ([#856](https://github.com/jarebudev/java-sdk-contrib/issues/856)) ([f10d872](https://github.com/jarebudev/java-sdk-contrib/commit/f10d87205dd6a21222de362694d208fd293d9200))
+* **main:** release dev.openfeature.contrib.providers.statsig 0.1.0 ([#700](https://github.com/jarebudev/java-sdk-contrib/issues/700)) ([ac5851e](https://github.com/jarebudev/java-sdk-contrib/commit/ac5851e2f0c7257418811626d7cd0ed32857c083))
+
 ## [0.1.0](https://github.com/open-feature/java-sdk-contrib/compare/dev.openfeature.contrib.providers.statsig-v0.0.4...dev.openfeature.contrib.providers.statsig-v0.1.0) (2024-09-25)
 
 
