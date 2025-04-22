@@ -1,5 +1,57 @@
 # Changelog
 
+## [0.2.0](https://github.com/jarebudev/java-sdk-contrib/compare/dev.openfeature.contrib.providers.flipt-v0.1.1...dev.openfeature.contrib.providers.flipt-v0.2.0) (2025-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964))
+
+### 🐛 Bug Fixes
+
+* class not found ([ac58e28](https://github.com/jarebudev/java-sdk-contrib/commit/ac58e2833db1c804cde3385fe875c8a9b56ab13d))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.17.1 ([#777](https://github.com/jarebudev/java-sdk-contrib/issues/777)) ([8b582d6](https://github.com/jarebudev/java-sdk-contrib/commit/8b582d6052fd22b8141a9765b2a1a261933fd3a2))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.17.2 ([#866](https://github.com/jarebudev/java-sdk-contrib/issues/866)) ([cf66811](https://github.com/jarebudev/java-sdk-contrib/commit/cf668118351120b8a86b08f30facb38f7ec51086))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.18.0 ([#979](https://github.com/jarebudev/java-sdk-contrib/issues/979)) ([7e1a13e](https://github.com/jarebudev/java-sdk-contrib/commit/7e1a13ec79b82f8fa49703af58087fea1874cea5))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.18.0 ([#996](https://github.com/jarebudev/java-sdk-contrib/issues/996)) ([a701161](https://github.com/jarebudev/java-sdk-contrib/commit/a7011611765f121145773d06717a19f143f75d63))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.18.1 ([#1047](https://github.com/jarebudev/java-sdk-contrib/issues/1047)) ([a2ee3e6](https://github.com/jarebudev/java-sdk-contrib/commit/a2ee3e6ed0c15c3ebaf55adc10198760f51a4a30))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-databind to v2.18.2 ([#1089](https://github.com/jarebudev/java-sdk-contrib/issues/1089)) ([9b40e22](https://github.com/jarebudev/java-sdk-contrib/commit/9b40e22e57739c7da417f834dd4f6822e6657ca8))
+* **deps:** update dependency io.flipt:flipt-java to v1.1.0 ([#751](https://github.com/jarebudev/java-sdk-contrib/issues/751)) ([c9c9009](https://github.com/jarebudev/java-sdk-contrib/commit/c9c90095e6f18f48b3ca791f8bb1d6d63321fae8))
+* **deps:** update dependency io.flipt:flipt-java to v1.1.1 ([#784](https://github.com/jarebudev/java-sdk-contrib/issues/784)) ([ef1b771](https://github.com/jarebudev/java-sdk-contrib/commit/ef1b771cf2fbe5dd7acdc842c5efc290ee166fc5))
+* **deps:** update dependency io.flipt:flipt-java to v1.1.2 ([#1027](https://github.com/jarebudev/java-sdk-contrib/issues/1027)) ([eb9f891](https://github.com/jarebudev/java-sdk-contrib/commit/eb9f89152ec8c775f242c97087c4fabd41b41e36))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.13 ([#752](https://github.com/jarebudev/java-sdk-contrib/issues/752)) ([b820fcf](https://github.com/jarebudev/java-sdk-contrib/commit/b820fcf1b7ea945a8e450dcc90addb82f5fb865d))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.14 ([#904](https://github.com/jarebudev/java-sdk-contrib/issues/904)) ([028b332](https://github.com/jarebudev/java-sdk-contrib/commit/028b332dc8ac3b134e5453d5449a4c11b4ef250a))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.15 ([#910](https://github.com/jarebudev/java-sdk-contrib/issues/910)) ([2f58638](https://github.com/jarebudev/java-sdk-contrib/commit/2f58638eb4907c948325d1e61853e1b6eabfa4c1))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.16 ([#912](https://github.com/jarebudev/java-sdk-contrib/issues/912)) ([52571d8](https://github.com/jarebudev/java-sdk-contrib/commit/52571d806e7c547006db836245b4895fe9bc4660))
+* **deps:** update jackson monorepo to v2.18.3 ([#1254](https://github.com/jarebudev/java-sdk-contrib/issues/1254)) ([24f11fd](https://github.com/jarebudev/java-sdk-contrib/commit/24f11fd5338e2693d1eda0654c4ea4bc29063742))
+* **deps:** update slf4j monorepo to v2.0.17 ([#1243](https://github.com/jarebudev/java-sdk-contrib/issues/1243)) ([66c6a7f](https://github.com/jarebudev/java-sdk-contrib/commit/66c6a7fc1bdc3e907793d2fc1eb0d412693a4aee))
+* **flipt:** set variant attachment as value for object evaluation ([#956](https://github.com/jarebudev/java-sdk-contrib/issues/956)) ([e221402](https://github.com/jarebudev/java-sdk-contrib/commit/e221402b38840665741643d4e0a87e0c4b055d36))
+
+
+### ✨ New Features
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964)) ([4a041b0](https://github.com/jarebudev/java-sdk-contrib/commit/4a041b0dda9c4e460f4c2199f3bc680df0dda621))
+
+
+### 🧹 Chore
+
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-annotations to v2.17.1 ([#775](https://github.com/jarebudev/java-sdk-contrib/issues/775)) ([0bee551](https://github.com/jarebudev/java-sdk-contrib/commit/0bee551e6af2d3cf419a23f59680fc8033cea8c5))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-annotations to v2.17.2 ([#864](https://github.com/jarebudev/java-sdk-contrib/issues/864)) ([8ca248b](https://github.com/jarebudev/java-sdk-contrib/commit/8ca248bfa9fd64073f6b84722a990f50216969bf))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-annotations to v2.18.0 ([#977](https://github.com/jarebudev/java-sdk-contrib/issues/977)) ([eb0777b](https://github.com/jarebudev/java-sdk-contrib/commit/eb0777b250771985cd0db2e208e985fcbc2b5e6d))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-annotations to v2.18.1 ([#1045](https://github.com/jarebudev/java-sdk-contrib/issues/1045)) ([d9f2d89](https://github.com/jarebudev/java-sdk-contrib/commit/d9f2d89d6e045bb2a393b9e5a446a2956927bb2a))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-annotations to v2.18.2 ([#1086](https://github.com/jarebudev/java-sdk-contrib/issues/1086)) ([7f10440](https://github.com/jarebudev/java-sdk-contrib/commit/7f1044027c193259969718854a2fc86651c59a24))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-core to v2.17.1 ([#776](https://github.com/jarebudev/java-sdk-contrib/issues/776)) ([d1e4ec5](https://github.com/jarebudev/java-sdk-contrib/commit/d1e4ec562de081a1fef677219aed8b73f2882bd8))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-core to v2.17.2 ([#865](https://github.com/jarebudev/java-sdk-contrib/issues/865)) ([d1409d3](https://github.com/jarebudev/java-sdk-contrib/commit/d1409d3ccaff2ca77589f5e6616962b706182543))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-core to v2.18.0 ([#978](https://github.com/jarebudev/java-sdk-contrib/issues/978)) ([6cdea81](https://github.com/jarebudev/java-sdk-contrib/commit/6cdea81644af0f1f8e231b553b6c16e665cc7d31))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-core to v2.18.1 ([#1046](https://github.com/jarebudev/java-sdk-contrib/issues/1046)) ([862ceb2](https://github.com/jarebudev/java-sdk-contrib/commit/862ceb232ce27a8633d5a887822fc82b009ec6be))
+* **deps:** update dependency com.fasterxml.jackson.core:jackson-core to v2.18.2 ([#1087](https://github.com/jarebudev/java-sdk-contrib/issues/1087)) ([51c0252](https://github.com/jarebudev/java-sdk-contrib/commit/51c0252ecd55901c7a3d1346e9ee700980b77d0a))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.0 ([#940](https://github.com/jarebudev/java-sdk-contrib/issues/940)) ([5465337](https://github.com/jarebudev/java-sdk-contrib/commit/546533739b453988720bb051d5e623ac7eb0b588))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.1 ([#986](https://github.com/jarebudev/java-sdk-contrib/issues/986)) ([1e53431](https://github.com/jarebudev/java-sdk-contrib/commit/1e53431353c1de0856db6bdb815d2218d9ac94a2))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.2 ([#1079](https://github.com/jarebudev/java-sdk-contrib/issues/1079)) ([804cd45](https://github.com/jarebudev/java-sdk-contrib/commit/804cd455d6e9e79e1fa72b003245027ed7450487))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.3 ([#1103](https://github.com/jarebudev/java-sdk-contrib/issues/1103)) ([e2b8160](https://github.com/jarebudev/java-sdk-contrib/commit/e2b8160dda2b82b43f665753187ab85a4e1abe13))
+* **main:** release dev.openfeature.contrib.providers.flipt 0.1.0 ([#545](https://github.com/jarebudev/java-sdk-contrib/issues/545)) ([9ae4c0c](https://github.com/jarebudev/java-sdk-contrib/commit/9ae4c0c44466896310d453b3dbadc5a94b73e925))
+* **main:** release dev.openfeature.contrib.providers.flipt 0.1.1 ([#982](https://github.com/jarebudev/java-sdk-contrib/issues/982)) ([1c80ec2](https://github.com/jarebudev/java-sdk-contrib/commit/1c80ec253d588cbca6b81ce9f6666dd0be2e5c10))
+
 ## [0.1.1](https://github.com/open-feature/java-sdk-contrib/compare/dev.openfeature.contrib.providers.flipt-v0.1.0...dev.openfeature.contrib.providers.flipt-v0.1.1) (2024-10-02)
 
 
