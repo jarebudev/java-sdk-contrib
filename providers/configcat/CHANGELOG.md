@@ -1,5 +1,47 @@
 # Changelog
 
+## [0.2.0](https://github.com/jarebudev/java-sdk-contrib/compare/dev.openfeature.contrib.providers.configcat-v0.1.0...dev.openfeature.contrib.providers.configcat-v0.2.0) (2025-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964))
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency com.configcat:configcat-java-client to v9.1.1 ([#764](https://github.com/jarebudev/java-sdk-contrib/issues/764)) ([5eb04a3](https://github.com/jarebudev/java-sdk-contrib/commit/5eb04a30ebce6e245f212d5183b0560592c41888))
+* **deps:** update dependency com.configcat:configcat-java-client to v9.1.2 ([#781](https://github.com/jarebudev/java-sdk-contrib/issues/781)) ([5081696](https://github.com/jarebudev/java-sdk-contrib/commit/5081696624caa10bce075a3e98a5c7ef6a7c7d9d))
+* **deps:** update dependency com.configcat:configcat-java-client to v9.2.0 ([#812](https://github.com/jarebudev/java-sdk-contrib/issues/812)) ([f426f0b](https://github.com/jarebudev/java-sdk-contrib/commit/f426f0b50dc6d6c0520a1875ab7c42af26bca190))
+* **deps:** update dependency com.configcat:configcat-java-client to v9.3.0 ([#863](https://github.com/jarebudev/java-sdk-contrib/issues/863)) ([0692cb7](https://github.com/jarebudev/java-sdk-contrib/commit/0692cb71489514331cab9b67de49e73d28aa2546))
+* **deps:** update dependency com.configcat:configcat-java-client to v9.4.0 ([#889](https://github.com/jarebudev/java-sdk-contrib/issues/889)) ([94a1bd5](https://github.com/jarebudev/java-sdk-contrib/commit/94a1bd5ca8ce0a3283ab2bfc9a861e4b3544e6dc))
+* **deps:** update dependency com.configcat:configcat-java-client to v9.4.1 ([#903](https://github.com/jarebudev/java-sdk-contrib/issues/903)) ([1cbc60c](https://github.com/jarebudev/java-sdk-contrib/commit/1cbc60c5a25642ec2ca028817b8f843832f8dae9))
+* **deps:** update dependency com.configcat:configcat-java-client to v9.4.2 ([#1109](https://github.com/jarebudev/java-sdk-contrib/issues/1109)) ([1d85362](https://github.com/jarebudev/java-sdk-contrib/commit/1d8536230316242652f9d71c180ef01c525d4c8a))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.13 ([#752](https://github.com/jarebudev/java-sdk-contrib/issues/752)) ([b820fcf](https://github.com/jarebudev/java-sdk-contrib/commit/b820fcf1b7ea945a8e450dcc90addb82f5fb865d))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.14 ([#904](https://github.com/jarebudev/java-sdk-contrib/issues/904)) ([028b332](https://github.com/jarebudev/java-sdk-contrib/commit/028b332dc8ac3b134e5453d5449a4c11b4ef250a))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.15 ([#910](https://github.com/jarebudev/java-sdk-contrib/issues/910)) ([2f58638](https://github.com/jarebudev/java-sdk-contrib/commit/2f58638eb4907c948325d1e61853e1b6eabfa4c1))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.16 ([#912](https://github.com/jarebudev/java-sdk-contrib/issues/912)) ([52571d8](https://github.com/jarebudev/java-sdk-contrib/commit/52571d806e7c547006db836245b4895fe9bc4660))
+* **deps:** update slf4j monorepo to v2.0.17 ([#1243](https://github.com/jarebudev/java-sdk-contrib/issues/1243)) ([66c6a7f](https://github.com/jarebudev/java-sdk-contrib/commit/66c6a7fc1bdc3e907793d2fc1eb0d412693a4aee))
+
+
+### ✨ New Features
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964)) ([4a041b0](https://github.com/jarebudev/java-sdk-contrib/commit/4a041b0dda9c4e460f4c2199f3bc680df0dda621))
+
+
+### 🧹 Chore
+
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.0 ([#940](https://github.com/jarebudev/java-sdk-contrib/issues/940)) ([5465337](https://github.com/jarebudev/java-sdk-contrib/commit/546533739b453988720bb051d5e623ac7eb0b588))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.1 ([#986](https://github.com/jarebudev/java-sdk-contrib/issues/986)) ([1e53431](https://github.com/jarebudev/java-sdk-contrib/commit/1e53431353c1de0856db6bdb815d2218d9ac94a2))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.2 ([#1079](https://github.com/jarebudev/java-sdk-contrib/issues/1079)) ([804cd45](https://github.com/jarebudev/java-sdk-contrib/commit/804cd455d6e9e79e1fa72b003245027ed7450487))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.3 ([#1103](https://github.com/jarebudev/java-sdk-contrib/issues/1103)) ([e2b8160](https://github.com/jarebudev/java-sdk-contrib/commit/e2b8160dda2b82b43f665753187ab85a4e1abe13))
+* **main:** release dev.openfeature.contrib.providers.configcat 0.0.4 ([#657](https://github.com/jarebudev/java-sdk-contrib/issues/657)) ([400da5c](https://github.com/jarebudev/java-sdk-contrib/commit/400da5c6f0aa6e426385857f6d69cf5f45af4144))
+* **main:** release dev.openfeature.contrib.providers.configcat 0.1.0 ([#941](https://github.com/jarebudev/java-sdk-contrib/issues/941)) ([82067cd](https://github.com/jarebudev/java-sdk-contrib/commit/82067cd6f4251c30239fd07e08f990d8ae671bea))
+
+
+### 📚 Documentation
+
+* **configcat:** Revise docs in README.md ([#990](https://github.com/jarebudev/java-sdk-contrib/issues/990)) ([a58a64e](https://github.com/jarebudev/java-sdk-contrib/commit/a58a64e0477dd48c4b715ae0e05413b37e653379))
+
 ## [0.1.0](https://github.com/open-feature/java-sdk-contrib/compare/dev.openfeature.contrib.providers.configcat-v0.0.4...dev.openfeature.contrib.providers.configcat-v0.1.0) (2024-09-25)
 
 
