@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.0.11](https://github.com/jarebudev/java-sdk-contrib/compare/dev.openfeature.contrib.providers.flagsmith-v0.0.10...dev.openfeature.contrib.providers.flagsmith-v0.0.11) (2025-04-22)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency com.flagsmith:flagsmith-java-client to v7.3.0 ([#734](https://github.com/jarebudev/java-sdk-contrib/issues/734)) ([d0f5e60](https://github.com/jarebudev/java-sdk-contrib/commit/d0f5e60e9a3a52b55c7124f936e6abba2e33f50a))
+* **deps:** update dependency com.flagsmith:flagsmith-java-client to v7.4.1 ([#922](https://github.com/jarebudev/java-sdk-contrib/issues/922)) ([a878923](https://github.com/jarebudev/java-sdk-contrib/commit/a878923a4fd36f73bb0c1cb33afe87906ab08c5c))
+* **deps:** update dependency com.flagsmith:flagsmith-java-client to v7.4.2 ([#951](https://github.com/jarebudev/java-sdk-contrib/issues/951)) ([a1991bd](https://github.com/jarebudev/java-sdk-contrib/commit/a1991bd203044cbb28af5fedd353b5354831bd47))
+* **deps:** update dependency com.flagsmith:flagsmith-java-client to v7.4.3 ([#1098](https://github.com/jarebudev/java-sdk-contrib/issues/1098)) ([a4b7809](https://github.com/jarebudev/java-sdk-contrib/commit/a4b7809b03ae5384cc150c74fc7f7fb8068537d8))
+* graceful flagsmith provider shutdown ([#1305](https://github.com/jarebudev/java-sdk-contrib/issues/1305)) ([36d1001](https://github.com/jarebudev/java-sdk-contrib/commit/36d1001b0d3c20a65cfd582936b82635cda83b8a))
+
+
+### ✨ New Features
+
+* Add support for http protocols option with flagsmith client ([#950](https://github.com/jarebudev/java-sdk-contrib/issues/950)) ([a7e1f7b](https://github.com/jarebudev/java-sdk-contrib/commit/a7e1f7bbafc3fc24d36691dc7bf94c7c97251b75))
+
+
+### 🧹 Chore
+
+* **main:** release dev.openfeature.contrib.providers.flagsmith 0.0.10 ([#1099](https://github.com/jarebudev/java-sdk-contrib/issues/1099)) ([0ba5758](https://github.com/jarebudev/java-sdk-contrib/commit/0ba5758b8d07fb6279e1d687f8be0645f08abeca))
+* **main:** release dev.openfeature.contrib.providers.flagsmith 0.0.9 ([#504](https://github.com/jarebudev/java-sdk-contrib/issues/504)) ([d7820c0](https://github.com/jarebudev/java-sdk-contrib/commit/d7820c09d050fed0a00637b89ec37338e8db2f4e))
+
+
+### 📚 Documentation
+
+* **flagsmith:** Improve README ([#872](https://github.com/jarebudev/java-sdk-contrib/issues/872)) ([1ce5ea5](https://github.com/jarebudev/java-sdk-contrib/commit/1ce5ea5112078cc1686565034b7de4da77cb9f19))
+
 ## [0.0.10](https://github.com/open-feature/java-sdk-contrib/compare/dev.openfeature.contrib.providers.flagsmith-v0.0.9...dev.openfeature.contrib.providers.flagsmith-v0.0.10) (2025-04-14)
 
 
