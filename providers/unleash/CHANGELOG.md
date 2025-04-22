@@ -1,5 +1,42 @@
 # Changelog
 
+## [0.2.0-alpha](https://github.com/jarebudev/java-sdk-contrib/compare/dev.openfeature.contrib.providers.unleash-v0.1.0-alpha...dev.openfeature.contrib.providers.unleash-v0.2.0-alpha) (2025-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964))
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency io.getunleash:unleash-client-java to v9.2.1 ([#780](https://github.com/jarebudev/java-sdk-contrib/issues/780)) ([ac0b078](https://github.com/jarebudev/java-sdk-contrib/commit/ac0b0789d6129cf9743b9757f4cfe6331d30ee46))
+* **deps:** update dependency io.getunleash:unleash-client-java to v9.2.2 ([#787](https://github.com/jarebudev/java-sdk-contrib/issues/787)) ([703830d](https://github.com/jarebudev/java-sdk-contrib/commit/703830d5247b4a52a0b0767bf2d13a7e93582d00))
+* **deps:** update dependency io.getunleash:unleash-client-java to v9.2.3 ([#890](https://github.com/jarebudev/java-sdk-contrib/issues/890)) ([b5c1e0d](https://github.com/jarebudev/java-sdk-contrib/commit/b5c1e0df180eeb958089cde4d8ef8795a4c0c2f4))
+* **deps:** update dependency io.getunleash:unleash-client-java to v9.2.4 ([#893](https://github.com/jarebudev/java-sdk-contrib/issues/893)) ([ebb6333](https://github.com/jarebudev/java-sdk-contrib/commit/ebb6333c4266dbbc4513d296ca676a1666c714dc))
+* **deps:** update dependency io.getunleash:unleash-client-java to v9.2.5 ([#1078](https://github.com/jarebudev/java-sdk-contrib/issues/1078)) ([ed10f3f](https://github.com/jarebudev/java-sdk-contrib/commit/ed10f3f2e9b992d5429e7eb89268640d52a5003f))
+* **deps:** update dependency io.getunleash:unleash-client-java to v9.2.6 ([#1085](https://github.com/jarebudev/java-sdk-contrib/issues/1085)) ([f174e94](https://github.com/jarebudev/java-sdk-contrib/commit/f174e94627595a8d71c593c6e9563c52ff4b602f))
+* **deps:** update dependency io.getunleash:unleash-client-java to v9.3.1 ([#1170](https://github.com/jarebudev/java-sdk-contrib/issues/1170)) ([7c34fed](https://github.com/jarebudev/java-sdk-contrib/commit/7c34fedd1ba948356b48773f5f39a74ecc42683c))
+* **deps:** update dependency io.getunleash:unleash-client-java to v9.3.2 ([#1182](https://github.com/jarebudev/java-sdk-contrib/issues/1182)) ([fd7440a](https://github.com/jarebudev/java-sdk-contrib/commit/fd7440affacab117755f8b109da18cc8c562f6c3))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.13 ([#752](https://github.com/jarebudev/java-sdk-contrib/issues/752)) ([b820fcf](https://github.com/jarebudev/java-sdk-contrib/commit/b820fcf1b7ea945a8e450dcc90addb82f5fb865d))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.14 ([#904](https://github.com/jarebudev/java-sdk-contrib/issues/904)) ([028b332](https://github.com/jarebudev/java-sdk-contrib/commit/028b332dc8ac3b134e5453d5449a4c11b4ef250a))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.15 ([#910](https://github.com/jarebudev/java-sdk-contrib/issues/910)) ([2f58638](https://github.com/jarebudev/java-sdk-contrib/commit/2f58638eb4907c948325d1e61853e1b6eabfa4c1))
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.16 ([#912](https://github.com/jarebudev/java-sdk-contrib/issues/912)) ([52571d8](https://github.com/jarebudev/java-sdk-contrib/commit/52571d806e7c547006db836245b4895fe9bc4660))
+* **deps:** update slf4j monorepo to v2.0.17 ([#1243](https://github.com/jarebudev/java-sdk-contrib/issues/1243)) ([66c6a7f](https://github.com/jarebudev/java-sdk-contrib/commit/66c6a7fc1bdc3e907793d2fc1eb0d412693a4aee))
+
+
+### ✨ New Features
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964)) ([4a041b0](https://github.com/jarebudev/java-sdk-contrib/commit/4a041b0dda9c4e460f4c2199f3bc680df0dda621))
+
+
+### 🧹 Chore
+
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.0 ([#940](https://github.com/jarebudev/java-sdk-contrib/issues/940)) ([5465337](https://github.com/jarebudev/java-sdk-contrib/commit/546533739b453988720bb051d5e623ac7eb0b588))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.1 ([#986](https://github.com/jarebudev/java-sdk-contrib/issues/986)) ([1e53431](https://github.com/jarebudev/java-sdk-contrib/commit/1e53431353c1de0856db6bdb815d2218d9ac94a2))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.2 ([#1079](https://github.com/jarebudev/java-sdk-contrib/issues/1079)) ([804cd45](https://github.com/jarebudev/java-sdk-contrib/commit/804cd455d6e9e79e1fa72b003245027ed7450487))
+* **deps:** update dependency org.apache.logging.log4j:log4j-slf4j2-impl to v2.24.3 ([#1103](https://github.com/jarebudev/java-sdk-contrib/issues/1103)) ([e2b8160](https://github.com/jarebudev/java-sdk-contrib/commit/e2b8160dda2b82b43f665753187ab85a4e1abe13))
+* **main:** release dev.openfeature.contrib.providers.unleash 0.1.0-alpha ([#620](https://github.com/jarebudev/java-sdk-contrib/issues/620)) ([12d06d2](https://github.com/jarebudev/java-sdk-contrib/commit/12d06d2c2b5ac0d82433752c8995b7b7d1b3462a))
+
 ## [0.1.0-alpha](https://github.com/open-feature/java-sdk-contrib/compare/dev.openfeature.contrib.providers.unleash-v0.0.4-alpha...dev.openfeature.contrib.providers.unleash-v0.1.0-alpha) (2024-09-25)
 
 
