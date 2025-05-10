@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.2.0](https://github.com/jarebudev/java-sdk-contrib/compare/dev.openfeature.contrib.providers.jsonlogic-v1.1.1...dev.openfeature.contrib.providers.jsonlogic-v1.2.0) (2025-04-22)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency com.github.spotbugs:spotbugs-annotations to v4.8.5 ([#773](https://github.com/jarebudev/java-sdk-contrib/issues/773)) ([4b2e54a](https://github.com/jarebudev/java-sdk-contrib/commit/4b2e54a82b2ef54a649cefdec5c037b617930480))
+* **deps:** update dependency com.github.spotbugs:spotbugs-annotations to v4.8.6 ([#831](https://github.com/jarebudev/java-sdk-contrib/issues/831)) ([52bfdfe](https://github.com/jarebudev/java-sdk-contrib/commit/52bfdfed014780b92b0b99c73ff3e2cf05c56cff))
+* **deps:** update dependency io.github.jamsesso:json-logic-java to v1.0.9 ([#1282](https://github.com/jarebudev/java-sdk-contrib/issues/1282)) ([1ddc63c](https://github.com/jarebudev/java-sdk-contrib/commit/1ddc63c3a5e894d42bd6097f9936fb0e9431d296))
+* **deps:** update dependency org.json:json to v20240303 ([#701](https://github.com/jarebudev/java-sdk-contrib/issues/701)) ([396f056](https://github.com/jarebudev/java-sdk-contrib/commit/396f056c810dee17d095561ac666fd4b434b5ee2))
+* **deps:** update dependency org.json:json to v20250107 ([#1148](https://github.com/jarebudev/java-sdk-contrib/issues/1148)) ([53276c7](https://github.com/jarebudev/java-sdk-contrib/commit/53276c74e1e4b5f828cd3d5e2b44e2ad0c566732))
+
+
+### ✨ New Features
+
+* avoid star imports via checkstyle ([#817](https://github.com/jarebudev/java-sdk-contrib/issues/817)) ([249225f](https://github.com/jarebudev/java-sdk-contrib/commit/249225f4e0f981dbe7ea69330990c2509e4e4292))
+
+
+### 🧹 Chore
+
+* **main:** release dev.openfeature.contrib.providers.jsonlogic 1.1.0 ([#616](https://github.com/jarebudev/java-sdk-contrib/issues/616)) ([67e8572](https://github.com/jarebudev/java-sdk-contrib/commit/67e85726c114c4c14f17a1fb4fe53808b820bed1))
+* **main:** release dev.openfeature.contrib.providers.jsonlogic 1.1.1 ([#838](https://github.com/jarebudev/java-sdk-contrib/issues/838)) ([143ecb1](https://github.com/jarebudev/java-sdk-contrib/commit/143ecb1183c1430b017537a317f8b606d6c9e124))
+
 ## [1.1.1](https://github.com/open-feature/java-sdk-contrib/compare/dev.openfeature.contrib.providers.jsonlogic-v1.1.0...dev.openfeature.contrib.providers.jsonlogic-v1.1.1) (2024-09-25)
 
 
