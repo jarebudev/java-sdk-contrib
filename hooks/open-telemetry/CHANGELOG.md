@@ -1,5 +1,42 @@
 # Changelog
 
+## [4.0.0](https://github.com/jarebudev/java-sdk-contrib/compare/dev.openfeature.contrib.hooks.otel-v3.2.1...dev.openfeature.contrib.hooks.otel-v4.0.0) (2025-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964))
+
+### 🐛 Bug Fixes
+
+* **deps:** move to io.opentelemetry.semconv:opentelemetry-semconv ([#1041](https://github.com/jarebudev/java-sdk-contrib/issues/1041)) ([18d2557](https://github.com/jarebudev/java-sdk-contrib/commit/18d25572c592bf46f4e0856917c667cd661545e2))
+* **deps:** update dependency io.opentelemetry:opentelemetry-bom to v1.44.0 ([#1068](https://github.com/jarebudev/java-sdk-contrib/issues/1068)) ([d659630](https://github.com/jarebudev/java-sdk-contrib/commit/d659630701786cd1f6ca495cb4e5364349b336da))
+* **deps:** update dependency io.opentelemetry:opentelemetry-bom to v1.46.0 ([#1154](https://github.com/jarebudev/java-sdk-contrib/issues/1154)) ([5eb6847](https://github.com/jarebudev/java-sdk-contrib/commit/5eb68479b8a127a3efc4ea183a7a17644df9a31a))
+* **deps:** update opentelemetry-java monorepo to v1.38.0 ([#785](https://github.com/jarebudev/java-sdk-contrib/issues/785)) ([61ac99f](https://github.com/jarebudev/java-sdk-contrib/commit/61ac99f577b08b8abcfcaccb421d950465907f2c))
+* **deps:** update opentelemetry-java monorepo to v1.39.0 ([#813](https://github.com/jarebudev/java-sdk-contrib/issues/813)) ([cbf4232](https://github.com/jarebudev/java-sdk-contrib/commit/cbf42324351f25889e59bf8b29d5ed4752ab3c98))
+* **deps:** update opentelemetry-java monorepo to v1.40.0 ([#870](https://github.com/jarebudev/java-sdk-contrib/issues/870)) ([53f4435](https://github.com/jarebudev/java-sdk-contrib/commit/53f4435dce0b0f80fcae48d3f664a88d9734e7d0))
+* **deps:** update opentelemetry-java monorepo to v1.41.0 ([#911](https://github.com/jarebudev/java-sdk-contrib/issues/911)) ([157705a](https://github.com/jarebudev/java-sdk-contrib/commit/157705a44e55f5b5a545f9126b64df00b1f8cdf9))
+* **deps:** update opentelemetry-java monorepo to v1.42.0 ([#939](https://github.com/jarebudev/java-sdk-contrib/issues/939)) ([67e855c](https://github.com/jarebudev/java-sdk-contrib/commit/67e855c0eeeb8f36cd6ebb901deb3bfa3ea90695))
+* **deps:** update opentelemetry-java monorepo to v1.42.1 ([#946](https://github.com/jarebudev/java-sdk-contrib/issues/946)) ([0ca3da6](https://github.com/jarebudev/java-sdk-contrib/commit/0ca3da649cbeb03039f7ea79134475093b739143))
+* **deps:** update opentelemetry-java monorepo to v1.43.0 ([#1020](https://github.com/jarebudev/java-sdk-contrib/issues/1020)) ([67682a8](https://github.com/jarebudev/java-sdk-contrib/commit/67682a8d8a0a69c157e0d4a78bf541c5c7c60971))
+* **deps:** update opentelemetry-java monorepo to v1.44.1 ([#1070](https://github.com/jarebudev/java-sdk-contrib/issues/1070)) ([4d5fe86](https://github.com/jarebudev/java-sdk-contrib/commit/4d5fe86a488a8781ab7efefb4a5958c4fae01c17))
+* **deps:** update opentelemetry-java monorepo to v1.45.0 ([#1096](https://github.com/jarebudev/java-sdk-contrib/issues/1096)) ([b8a79e7](https://github.com/jarebudev/java-sdk-contrib/commit/b8a79e75850567a512849f2bc70aad2c88443445))
+* **deps:** update opentelemetry-java monorepo to v1.47.0 ([#1206](https://github.com/jarebudev/java-sdk-contrib/issues/1206)) ([34cd441](https://github.com/jarebudev/java-sdk-contrib/commit/34cd4411ba768a602e399f7f23a7b1b8fbdfd77b))
+* **deps:** update opentelemetry-java monorepo to v1.48.0 ([#1269](https://github.com/jarebudev/java-sdk-contrib/issues/1269)) ([9958432](https://github.com/jarebudev/java-sdk-contrib/commit/9958432fdef18a889b69b74a3ea4fcf550fa073d))
+
+
+### ✨ New Features
+
+* use sdk-maintained state, require 1.12 ([#964](https://github.com/jarebudev/java-sdk-contrib/issues/964)) ([4a041b0](https://github.com/jarebudev/java-sdk-contrib/commit/4a041b0dda9c4e460f4c2199f3bc680df0dda621))
+
+
+### 🧹 Chore
+
+* **main:** release dev.openfeature.contrib.hooks.otel 3.1.2 ([#618](https://github.com/jarebudev/java-sdk-contrib/issues/618)) ([42ee39c](https://github.com/jarebudev/java-sdk-contrib/commit/42ee39c70cfd8799fcada8dd00b504dcc697b0e1))
+* **main:** release dev.openfeature.contrib.hooks.otel 3.2.0 ([#873](https://github.com/jarebudev/java-sdk-contrib/issues/873)) ([8623a72](https://github.com/jarebudev/java-sdk-contrib/commit/8623a722d5955df83c3d8f8ac4711562bc66c00a))
+* **main:** release dev.openfeature.contrib.hooks.otel 3.2.1 ([#1021](https://github.com/jarebudev/java-sdk-contrib/issues/1021)) ([fc886fd](https://github.com/jarebudev/java-sdk-contrib/commit/fc886fdc55f2cd375d3f1449f8a4ddac179eebc7))
+* update min SDK version ([#1152](https://github.com/jarebudev/java-sdk-contrib/issues/1152)) ([519a8de](https://github.com/jarebudev/java-sdk-contrib/commit/519a8de805761d55325daed7a1f8b65252bc3b01))
+
 ## [3.2.1](https://github.com/open-feature/java-sdk-contrib/compare/dev.openfeature.contrib.hooks.otel-v3.2.0...dev.openfeature.contrib.hooks.otel-v3.2.1) (2025-01-13)
 
 
